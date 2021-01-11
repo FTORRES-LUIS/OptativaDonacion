@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/estilos4.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/donaciones.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index2.html">Inicio</a>
+         
+            <a href="#contactenos">Contactenos</a>
+         
+            <a href="index.html">Salir</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Donatecomputer´S</h1>
+           
+        </section>
+       
+    </header>
+    <main>
+        <div>
+            <form name="registro" action="" method="POST">
+                
+                <section class="form-register">
+                    <h1>Registro de deporte</h1>
+                <input class="form" type="text" name="cedula" id="cedula" placeholder="Ingrese Cedula" required><br>
+                <input class="form" type="text" name="nombre" id="nombre" placeholder="Ingrese Nombre" required><br>
+                <input class="form" type="text" name="apellido" id="apellido" placeholder="Ingrese Apellido" required><br>
+                <input class="form" type="text" name="ciudad" id="ciudad" placeholder="Ingrese Ciudad" required><br> 
+                <input class="form" type="text" name="articulo" id="articulo" placeholder="Nombre del articulo donado" required><br> 
+                <p><input class="btn" type="button" value="enviar" id="btn-registrar" onclick='capturar();'></p>
+            </section>
+            </form>
+        </div>
+            <div class="container">
+                <table class="table" id="tabla">
+                    <thead class="thead-inverse " >
+                      <tr>
+                        <th scope="col">cedula</th>
+                        <th scope="col">nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Ciudad</th>
+                        <th scope="col">Articulo</th>
+                        <th scope="col">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                  </table>
+                </div>
+       
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo" id="contactenos"></h2>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>0983755837</p>
+            </div>
+            <div class="content-foo">
+                <h4>Atencion Personalizada</h4>
+                <p>Donatecomputer´S</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>e1309611166@live.uleam.edu.ec</p>
+            </div>
+        </div>
+        <h2 class="titulo-final"> Donatecomputer´S &copy; Torres Aspacio Luis</h2>
+        <div class="sociales">
+            <a class="icon-facebook" href="#"> <img src="icons/facebook_icon-icons.com_53612.ico" ></a>
+            <a class="icon instagram" href="#"><img src="icons/Instragram_social (2).ico"> </a> 
+            <a class="icon-twitter" href="#"><img src="icons/twitter_icon.ico" > </a>
+            <a class="icon-youtube" href="#"><img src="icons/youtube_social.ico" > </a>
+        </div>
+    </footer>
+    <script src="js/lista.js" ></script>
+</body>
+</html>
